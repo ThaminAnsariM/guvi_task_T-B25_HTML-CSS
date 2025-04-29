@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head_holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 61%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEFCFB;
+}
+.logo {
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.account {
+  display: flex;
+}
+ul > a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.login {
+  background: none;
+  border: none;
+  color: #fd8d3a;
+  margin-right: 15px;
+  margin-top: 15px;
+  width: 44px;
+  height: 24px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+.signup {
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fd8d3a;
+  color: white;
+  border: none;
+  filter: drop-shadow(2px 2px 1px #fd8d3a);
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+.firstContainer{
+    background-color: #FEFCFB;
+    width: 61%;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 61%;
+  
+}
+.hero_holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 61%;
+  padding: 8%;
+}
+.herocontent{
+margin-top: 45px;
+margin-left: 100px;
+}
+.herocontent > h1 {
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 64px;
+  width: 521px;
+}
+.herocontent > p {
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.herocontent > button {
+  width: 178px;
+  height: 60px;
+  background: none;
+  border-color: #fd8d3a;
+  color: #fd8d3a;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-top: 100px;
+}
+.travel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.travelinfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 841px;
+    height: 124px;
+    background-color:#FFFFFF;
+    filter: drop-shadow(5px 5px 0px #e3e3e3);
+    border-radius: 10px;
+    margin-left: 420px;
+}
+.travelinfoholder{
+  display: flex;
+  width: 528px;
+  height: 52px;
+}
+.Explore{
+  width: 165px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #fd8d3a;
+  color: #FFFFFF;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+.secondcontainer{
+  background-color: #F7F8FC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 724px;
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 61%;
+  height: 484px;
+  margin-bottom: 30px;
+}
+
+.cardholder{
+  display: flex;
+}
+.todo >h1{
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.cardholder > .card {
+  width: 370px;
+  height: 278px;
+  background-color: #FFFFFF;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.vecation{
+  width: 61%;
+  min-height: 484px;
+}
+.text > h1{
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 48px;
+}
+.top{
+  display: flex;
+  justify-content:center;
+}
+.text{
+ margin-top: 5px;
+  margin-left: 200px;
+}
+.element{
+  margin-left: 100px;
+}
+.card >h3{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.card >p{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.card >img{
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1170px;
+  height: 720px;
+
+}
+
+.content > h1{
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 48px;
+}
+.cardholder2{
+  display: flex;
+
+}
+.cardholder2 > .card{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 270px;
+  height: 426px;
+  background-color: #F7F8FC;
+  border-radius: 6px;
+}
+.loc{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+strike{
+  display: inline;
+ margin-left: 90px;
+}
+.price{
+  margin-left: 9px;
+  display: inline;
+  background-color: #fd8e3a72;
+  color: #fd8d3a;
+  width: 52px;
+  height: 28px;
+  border-radius: 4px;
+}
+.booknow {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  width: 132px;
+  height: 50px;
+  background-color: #fd8d3a;
+  border-radius: 5px;
+  border: none;
+  color: #F7F8FC;
+}
+.arrow{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.container4{
+
+  display: flex;
+  justify-content: center;
+  min-height: 893px;
+  
+}
+.contentholder{
+  position: relative;
+  width: 1170px;
+  height: 840px;
+}
+.contentholder > h1{
+  position: absolute;
+  top: 50px;
+  right:390px;
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 48px;
+}
+.contentholder > p{
+  position: absolute;
+  top: 140px;
+  right:370px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+}
+.element2{
+  position: absolute;
+  left: 830px;
+  top: 30px;
+}
+.button{
+  display: inline;
+  position: absolute;
+  right: 20px;
+  top: 220px;
+}
+
+.cardholder3{
+  position: absolute;
+  top: 300px;
+  width: 1170px;
+  
+}
+.cardgrid{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardgrid > .card1{
+  position: relative;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  height: 447px;
+  filter: drop-shadow(4px 4px 4px #ababab);
+}
+
+.card1 > h4{
+  position: absolute;
+  bottom: 80px;
+  left: 10px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+}
+.card1 > p{
+  position: absolute;
+  right: 10px;
+  bottom: 80px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+}
+.days{
+  position: absolute;
+  bottom: 10px;
+}
+.trip{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.container5{
+  display: flex;
+  justify-content: center;
+  background-color: #F7F8FC;
+  min-height: 596px;
+}
+.contentholder5{
+  position: relative;
+  width: 61%;
+  height: 356px;
+}
+
+.aboutus{
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+.aboutus > h1{
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.aboutus > p{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 20px;
+  
+}
+.feedback1{
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  background-color: #FFFFFF;
+  filter: drop-shadow(5px 5px 5px #e3e3e3);
+  width: 541px;
+  height: 260px;
+  z-index: 1;
+}
+.feedback1 > p{
+  
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+.feedback1 > h5{
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.DP{
+  position: absolute;
+  left: 430px;
+  z-index: 2;
+}
+.feedvack2{
+  position: absolute;
+  left: 500px;
+  top: 90px;
+  background-color: #F7F8FC;
+  filter: drop-shadow(5px 5px 5px #e3e3e3);
+  width: 541px;
+  height: 260px;
+}
+.ele{
+  position: absolute;
+  left: 990px;
+  bottom: 220px;
+} 
+.container6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 800px;
+}
+.cardholder6{
+  display: flex;
+  
+}
+.card6{
+  height: 388px;
+  width: 270px;
+  margin-left:10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container6 > h1{
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 48px;
+}
+.card6 > p {
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.card6 > div{
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+.lastcontainer{
+  position: relative;
+  width: 1920px;
+  height: 898px;
+  
+}
+.searchpad{
+  position: absolute;
+  left: 250px;
+  width: 1170px;
+  height: 416px;
+  border-radius: 16px;
+  background-color: #fd8d3a;
+}
+.searchpad > h1{
+  position: absolute;
+  top: 80px;
+  left: 270px;
+  font-family: "Volkhov";
+  font-weight: 400;
+  font-style: Bold;
+  font-size: 48px;
+  text-align: center;
+  color: #F7F8FC;
+}
+.sub{
+  position: absolute;
+  top: 270px;
+  left: 250px;
+  width: 674px;
+  height: 68px;
+  border-radius: 10px;
+  border: none;
+}
+.element{
+  position: absolute;
+  top: 20px;
+  left: 950px;
+}
+.circle{
+  position: absolute;
+  top: 55px;
+}
+.Subscribe{
+  position: absolute;
+  top: 280px;
+  left: 780px;
+  width: 132px;
+  height: 50px;
+  background-color: #fd8d3a;
+  border-radius: 5px;
+  color: #F7F8FC;
+  border-color: #fd8d3a;
+}
+.Trabook{
+  position: absolute;
+  top: 550px;
+  left: 250px;
+}
+.base{
+  position: absolute;
+  top: 550px;
+  left: 800px;
+}
+.base1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 598px;
+  height: 210px;
+}
+.base1 >span > ul{
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
